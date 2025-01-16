@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 export function Projects() {
   return (
     <div className="mt-20">
-      <h1 className="text-5xl font-light 2xl:text-[5rem]">
+      <h1 className="text-5xl font-light sm:w-full sm:text-center lg:w-auto lg:text-left 2xl:text-[5rem]">
         Selected projects (2024 - present)
       </h1>
       <div className="flex flex-col sm:items-center sm:justify-center lg:items-start lg:justify-start xl:items-start xl:justify-start 2xl:items-start 2xl:justify-start">
