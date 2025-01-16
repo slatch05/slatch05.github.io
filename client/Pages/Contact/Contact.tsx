@@ -32,8 +32,11 @@ export function Contact() {
   return (
     <div className="mt-20">
       <form ref={formRef} onSubmit={handleSubmit}>
-        <div className="flex">
-          <label htmlFor="name" className="text-5xl font-light 2xl:text-[5rem]">
+        <div className="">
+          <label
+            htmlFor="name"
+            className="text-5xl font-light sm:text-7xl lg:text-5xl xl:text-5xl 2xl:text-[5rem] "
+          >
             Hey Harpreet, my name is
           </label>
           <input
@@ -42,13 +45,13 @@ export function Contact() {
             name="name"
             placeholder="[your name]"
             required
-            className="w-[15.5rem] border-none pl-1 text-5xl font-light text-[rgb(255,47,1)] placeholder-[rgb(255,47,1)] 2xl:w-[25rem] 2xl:text-[5rem] "
+            className="w-[15.5rem] border-none pl-1 text-5xl font-light text-[rgb(255,47,1)] placeholder-[rgb(255,47,1)]  sm:w-[30rem] sm:text-7xl lg:text-5xl xl:text-5xl 2xl:w-[25rem] 2xl:text-[5rem]"
           />
         </div>
         <div>
           <label
             htmlFor="email"
-            className="text-5xl font-light 2xl:text-[5rem]"
+            className="text-5xl font-light sm:text-7xl lg:text-5xl xl:text-5xl 2xl:text-[5rem] "
           >
             I would like to connect with you regarding a new project. You can
             reach me via email at
@@ -59,25 +62,25 @@ export function Contact() {
             name="email"
             placeholder="[your email]"
             required
-            className="w-[15.5rem] border-none pl-1 text-5xl font-light text-[rgb(255,47,1)] placeholder-[rgb(255,47,1)] 2xl:w-[25rem] 2xl:text-[5rem]"
+            className="w-[15.5rem] border-none pl-1 text-5xl font-light text-[rgb(255,47,1)] placeholder-[rgb(255,47,1)]  sm:w-[30rem] sm:text-7xl lg:text-5xl xl:text-5xl 2xl:w-[25rem] 2xl:text-[5rem]"
           />
-
+          <br />
           <label
             htmlFor="message"
-            className="text-5xl font-light 2xl:text-[5rem]"
+            className="text-5xl font-light sm:text-7xl lg:text-5xl xl:text-5xl 2xl:text-[5rem] "
           >
-            . Message
+            Message
           </label>
           <input
             id="message"
             name="message"
-            className="border-none pl-1 text-5xl font-light text-[rgb(255,47,1)] placeholder-[rgb(255,47,1)] 2xl:text-[5rem]"
+            className="border-none pl-1 text-5xl font-light text-[rgb(255,47,1)] placeholder-[rgb(255,47,1)]  sm:text-7xl lg:text-5xl xl:text-5xl 2xl:text-[5rem]"
             placeholder="[any note]"
           ></input>
         </div>
         <button
           type="submit"
-          className="mt-7 w-fit rounded-full border border-solid border-black px-2 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white 2xl:text-2xl"
+          className="mt-7 w-fit rounded-full border border-solid border-black px-2 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white sm:text-4xl lg:text-xl xl:text-xl 2xl:text-2xl"
         >
           Send message
         </button>

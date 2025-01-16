@@ -6,11 +6,11 @@ export function Projects() {
       <h1 className="text-5xl font-light 2xl:text-[5rem]">
         Selected projects (2024 - present)
       </h1>
-      <div>
-        <div className="flex flex-row gap-10 font-light">
-          <div className="mt-10 flex flex-col border border-black p-5">
+      <div className="flex flex-col sm:items-center sm:justify-center lg:items-start lg:justify-start xl:items-start xl:justify-start 2xl:items-start 2xl:justify-start">
+        <div className="flex gap-10 font-light sm:w-[40rem] sm:flex-col sm:items-center lg:w-[90rem] lg:flex-row lg:items-start ">
+          <div className="mt-10 flex flex-col border border-black p-5 sm:w-[25rem] lg:w-[20rem] xl:w-[20rem] 2xl:w-[25rem]">
             <img
-              className="h-52 w-72 shadow-sm 2xl:h-[20rem] 2xl:w-[30rem]"
+              className="shadow-sm sm:h-[20rem] sm:w-[25rem] lg:h-52 lg:w-72  2xl:h-[18rem] 2xl:w-[30rem]"
               src="/image/game-hub/gameHub.png"
               alt="gamehub-homepage"
             />
@@ -25,9 +25,9 @@ export function Projects() {
               view case
             </Link>
           </div>
-          <div className="mt-10 flex flex-col border border-black p-5">
+          <div className="mt-10 flex flex-col border border-black p-5 sm:w-[25rem] lg:w-[20rem] xl:w-[20rem] 2xl:w-[25rem]">
             <img
-              className="h-52 w-72 shadow-sm 2xl:h-[20rem] 2xl:w-[30rem]"
+              className="shadow-sm sm:h-[20rem] sm:w-[25rem] lg:h-52 lg:w-72 2xl:h-[18rem] 2xl:w-[30rem]"
               src="/image/bite-share/biteShare1.png"
               alt="biteshare-homepage"
             />
@@ -42,9 +42,9 @@ export function Projects() {
               view case
             </Link>
           </div>
-          <div className="mt-10 flex flex-col border border-black p-5">
+          <div className="mt-10 flex flex-col border border-black p-5 sm:w-[25rem] lg:w-[20rem] xl:w-[20rem] 2xl:w-[25rem]">
             <img
-              className="h-52 w-72 shadow-sm 2xl:h-[20rem] 2xl:w-[30rem]"
+              className="shadow-sm sm:h-[20rem] sm:w-[25rem] lg:h-52 lg:w-72 2xl:h-[18rem] 2xl:w-[30rem]"
               src="/image/food/food1.png"
               alt="gamehub-homepage"
             />
