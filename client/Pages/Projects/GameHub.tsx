@@ -4,68 +4,54 @@ import { Footer } from '../Footer/Footer'
 export function GameHub() {
   return (
     <div>
-      <div className="mt-20 flex justify-between">
-        <div className="w-[28rem] text-lg 2xl:w-[60rem] 2xl:text-2xl">
+      <div className="mt-20 flex flex-col lg:flex-row lg:justify-between">
+        <div className="w-full px-5 text-lg sm:w-[28rem] lg:w-[28rem] 2xl:w-[60rem] 2xl:text-2xl">
           <Link
             to="/projects"
-            className="mt-7 w-fit rounded-full border border-solid border-black px-2 py-1 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white 2xl:text-xl"
+            className="mt-7 w-full rounded-full border border-solid border-black px-2 py-1 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white sm:w-fit 2xl:text-xl"
           >
             back to projects
           </Link>
-          <p className="mt-10 text-4xl">Game Hub</p>
-          <hr className="border-t-1 my-5 border-black"></hr>
+          <p className="mt-10 text-2xl sm:text-4xl">Game Hub</p>
+          <hr className="border-t-1 my-5 border-black" />
           <span className="text-xs font-light text-zinc-500">Remote</span>
           <p className="font-light uppercase">Personal project, 2024</p>
-          <hr className="border-t-1 my-5 border-black"></hr>
+          <hr className="border-t-1 my-5 border-black" />
           <span className="text-xs font-light text-zinc-500">
             FrontEnd, BackEnd, UI/UX, 2024
           </span>
           <p className="font-light uppercase">Harpreet Singh Slatch</p>
-          <hr className="border-t-1 my-5 border-black"></hr>
+          <hr className="border-t-1 my-5 border-black" />
           <span className="text-xs font-light text-zinc-500">Copyright</span>
           <p className="font-light uppercase">© All Rights Reserved</p>
-          <hr className="border-t-1 my-5 border-black"></hr>
-
-          {/* <a
-            href="#"
-            className="mt-7 w-fit rounded-full border border-solid border-black px-2 py-1 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white"
-          >
-            Live website
-          </a>
-          <a
-            href="#"
-            className="ml-3 mt-7 w-fit rounded-full border border-solid border-black px-2 py-1 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white"
-          >
-            View code
-          </a> */}
-          <div className="flex items-center gap-2">
-            <p className=" w-fit rounded-full bg-[rgb(255,47,1)] px-2 py-1 text-lg text-white 2xl:text-2xl">
+          <hr className="border-t-1 my-5 border-black" />
+          <div className="gap-4 sm:flex-row sm:items-center lg:items-center lg:text-center">
+            <p className="w-full rounded-full bg-[rgb(255,47,1)] px-2 py-1 text-lg text-white sm:w-fit sm:text-xl 2xl:text-2xl">
               Under construction
             </p>
-            <p className="text-xl 2xl:text-2xl">
+            <p className="mt-3 text-start text-base sm:text-xl 2xl:text-2xl">
               Exciting things are on the way!
             </p>
           </div>
-
-          <p className="mt-44 text-xs font-light text-zinc-500">
-            Scroll to explore
-          </p>
         </div>
-        <div>
+        <div className="mt-10 flex items-center justify-center lg:mt-0 lg:block">
           <img
-            className="w-[60rem] 2xl:w-[120rem]"
+            className="w-full sm:w-[fit] lg:w-[60rem] 2xl:w-[120rem] "
             src="/image/game-hub/gameHub.png"
-            alt="BiteShare-HomePage"
+            alt="GameHub-HomePage"
           />
         </div>
       </div>
+      <p className="text-start text-xs font-light text-zinc-500 sm:mt-20 lg:mt-20">
+        Scroll to explore
+      </p>
       <div className="grid h-screen place-items-center font-light">
-        <div className="mt-52 text-5xl 2xl:text-6xl">
+        <div className="mt-52 text-5xl sm:text-6xl xl:text-5xl 2xl:text-[5rem]">
           Game Hub is a web application offering a collection of amazing
           mini-games designed for simple, engaging, and entertaining
           experiences. It’s your go-to platform for fun and relaxation!
         </div>
-        <div className="mb-48 ml-96 w-[46rem] uppercase 2xl:text-lg">
+        <div className="mb-40 mt-8 w-[46rem] uppercase sm:text-lg lg:ml-96 2xl:text-lg">
           I’m passionate about game development, and this personal project
           reflects that enthusiasm. The goal was to create a minimalist,
           user-friendly website to host a variety of engaging mini-games while
@@ -81,15 +67,15 @@ export function GameHub() {
           enhanced gaming experience.
         </div>
       </div>
-      <div className="m-[4rem] bg-violet-50">
-        <div className="mt-10 flex h-screen flex-col items-center justify-center">
+      <div className="bg-violet-50 lg:m-[4rem]">
+        <div className="mt-10 flex flex-col items-center justify-center sm:mb-4 lg:h-screen">
           <img
             className="w-[67rem] rounded-xl 2xl:w-[120rem]"
             src="/image/game-hub/gameHub3.png"
             alt="request-page"
           />
         </div>
-        <div className="flex h-screen flex-col items-center justify-center">
+        <div className="flex flex-col items-center justify-center sm:mb-4 lg:h-screen">
           <img
             className="w-[67rem] rounded-xl 2xl:w-[120rem]"
             src="/image/game-hub/gameHub4.png"
@@ -98,14 +84,14 @@ export function GameHub() {
         </div>
       </div>
       <div className="m-[4rem] bg-sky-50">
-        <div className="mt-10 flex h-screen flex-col items-center justify-center">
+        <div className="mt-10 flex flex-col items-center justify-center sm:mb-4 lg:h-screen">
           <img
             className="w-[67rem] rounded-xl 2xl:w-[120rem]"
             src="/image/game-hub/gameHub2.png"
             alt="request-page"
           />
         </div>
-        <div className="flex h-screen flex-col items-center justify-center">
+        <div className="flex flex-col items-center justify-center sm:mb-4 lg:h-screen">
           <img
             className="w-[67rem] rounded-xl 2xl:w-[120rem]"
             src="/image/game-hub/gameHub5.png"
