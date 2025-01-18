@@ -4,32 +4,48 @@ import { Footer } from '../Footer/Footer'
 export function GameHub() {
   return (
     <div>
-      <div className="mt-20 flex flex-col lg:flex-row lg:justify-between">
-        <div className="w-full px-5 text-lg sm:w-[28rem] lg:w-[28rem] 2xl:w-[60rem] 2xl:text-2xl">
-          <Link
-            to="/projects"
-            className="mt-7 w-full rounded-full border border-solid border-black px-2 py-1 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white sm:w-fit 2xl:text-xl"
-          >
-            back to projects
-          </Link>
-          <p className="mt-10 text-2xl sm:text-4xl">Game Hub</p>
-          <hr className="border-t-1 my-5 border-black" />
-          <span className="text-xs font-light text-zinc-500">Remote</span>
-          <p className="font-light uppercase">Personal project, 2024</p>
-          <hr className="border-t-1 my-5 border-black" />
-          <span className="text-xs font-light text-zinc-500">
-            FrontEnd, BackEnd, UI/UX, 2024
-          </span>
-          <p className="font-light uppercase">Harpreet Singh Slatch</p>
-          <hr className="border-t-1 my-5 border-black" />
-          <span className="text-xs font-light text-zinc-500">Copyright</span>
-          <p className="font-light uppercase">© All Rights Reserved</p>
-          <hr className="border-t-1 my-5 border-black" />
-          <div className="gap-4 sm:flex-row sm:items-center lg:items-center lg:text-center">
-            <p className="w-full rounded-full bg-[rgb(255,47,1)] px-2 py-1 text-lg text-white sm:w-fit sm:text-xl 2xl:text-2xl">
-              Under construction
+      <div className="mt-20 flex flex-col sm:items-center lg:flex-row lg:items-start lg:justify-between">
+        <div className="w-full px-5 text-lg sm:w-full sm:items-center sm:justify-center lg:w-[28rem] lg:items-start lg:justify-start 2xl:w-[60rem] 2xl:text-2xl">
+          <div className="sm:text-center lg:text-start">
+            <div className="sm:text-start">
+              <Link
+                to="/projects"
+                className="w-full rounded-full border border-solid border-black px-2 py-1 text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white sm:text-3xl lg:text-center lg:text-xl 2xl:text-2xl"
+              >
+                back to projects
+              </Link>
+            </div>
+
+            <p className="mt-10 sm:text-4xl lg:text-2xl">Game Hub</p>
+            <hr className="border-t-1 my-5 border-black" />
+            <span className="font-light text-zinc-500 sm:text-lg lg:text-xs">
+              Remote
+            </span>
+            <p className="font-light uppercase sm:text-3xl lg:text-lg">
+              Personal project, 2024
             </p>
-            <p className="mt-3 text-start text-base sm:text-xl 2xl:text-2xl">
+            <hr className="border-t-1 my-5 border-black" />
+            <span className="font-light text-zinc-500 sm:text-lg lg:text-xs">
+              FrontEnd, BackEnd, UI/UX, 2024
+            </span>
+            <p className="font-light uppercase sm:text-3xl lg:text-lg">
+              Harpreet Singh Slatch
+            </p>
+            <hr className="border-t-1 my-5 border-black" />
+            <span className="font-light text-zinc-500 sm:text-lg lg:text-xs">
+              Copyright
+            </span>
+            <p className="font-light uppercase sm:text-3xl lg:text-lg">
+              © All Rights Reserved
+            </p>
+            <hr className="border-t-1 my-5 border-black" />
+            <div className="flex sm:items-center sm:justify-center lg:items-start lg:justify-start">
+              <p className="rounded-full bg-[rgb(255,47,1)] px-2 py-1 text-lg text-white sm:w-fit sm:text-3xl lg:w-fit  lg:text-lg 2xl:text-2xl">
+                Under construction
+              </p>
+            </div>
+
+            <p className="mt-3 text-base sm:text-3xl lg:text-start lg:text-lg 2xl:text-2xl">
               Exciting things are on the way!
             </p>
           </div>
@@ -42,7 +58,7 @@ export function GameHub() {
           />
         </div>
       </div>
-      <p className="text-start text-xs font-light text-zinc-500 sm:mt-20 lg:mt-20">
+      <p className="text-start font-light text-zinc-500 sm:mt-16 sm:text-lg lg:mt-20 lg:text-xs">
         Scroll to explore
       </p>
       <div className="grid h-screen place-items-center font-light">
@@ -51,7 +67,7 @@ export function GameHub() {
           mini-games designed for simple, engaging, and entertaining
           experiences. It’s your go-to platform for fun and relaxation!
         </div>
-        <div className="mb-40 mt-8 w-[46rem] uppercase sm:text-lg lg:ml-96 2xl:text-lg">
+        <div className="w-[46rem] uppercase sm:mb-40 sm:text-xl lg:mb-40 lg:ml-96 lg:mt-8 lg:text-sm 2xl:text-lg">
           I’m passionate about game development, and this personal project
           reflects that enthusiasm. The goal was to create a minimalist,
           user-friendly website to host a variety of engaging mini-games while
@@ -99,10 +115,10 @@ export function GameHub() {
           />
         </div>
       </div>
-      <div className="text-right">
+      <div className="sm:text-center lg:text-right">
         <a
           href="#top"
-          className="mt-7 w-fit rounded-full border border-solid border-black px-2 py-1 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white 2xl:text-xl"
+          className="mt-7 w-fit rounded-full border border-solid border-black px-2 py-1 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white sm:text-3xl lg:text-xl 2xl:text-2xl"
         >
           back to top
         </a>
