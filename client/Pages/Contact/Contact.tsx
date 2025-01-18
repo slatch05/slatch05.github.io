@@ -80,7 +80,7 @@ export function Contact() {
         </div>
         <button
           type="submit"
-          className="mt-7 w-fit rounded-full border border-solid border-black px-2 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white sm:text-4xl lg:text-xl xl:text-xl 2xl:text-2xl"
+          className="mt-20 w-fit rounded-full border border-solid border-black px-2 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white sm:text-4xl lg:text-xl xl:text-xl 2xl:text-2xl"
         >
           Send message
         </button>
