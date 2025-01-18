@@ -11,7 +11,7 @@ export function HomePage() {
           />
         </div>
         {/* Text Section */}
-        <div className=" flex items-center justify-start lg:ml-0 lg:mt-32">
+        <div className=" flex items-center justify-start lg:mt-32">
           <h1 className="text-left font-nohemiLight sm:text-[20vw] sm:leading-[1.1] md:text-[13vw] lg:text-[13vw] xl:text-[13vw] 2xl:text-[13vw]">
             Harpreet Slatch
           </h1>

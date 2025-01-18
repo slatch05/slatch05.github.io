@@ -6,18 +6,21 @@ export function Header() {
     <div>
       <div className="flex justify-between font-montreal text-sm 2xl:text-xl">
         <div>
-          <span className="text-sm text-gray-600 2xl:text-base">
+          <span className="text-gray-600 sm:text-xl lg:text-sm 2xl:text-base">
             Harpreet Singh Slatch
           </span>
-
-          <p className="uppercase">Full stack developer </p>
+          <p className="uppercase sm:text-2xl lg:text-base">
+            Full stack developer{' '}
+          </p>
         </div>
         <div className="">
-          <span className="text-sm text-gray-600  2xl:text-base">Location</span>
+          <span className="text-gray-600 sm:text-xl lg:text-sm 2xl:text-base">
+            Location
+          </span>
           <Time />
         </div>
-        <div className="">
-          <span className="text-sm text-gray-600  2xl:text-base">Sitemap</span>
+        <div className="sm:hidden lg:block">
+          <span className="text-sm text-gray-600 2xl:text-base">Sitemap</span>
           <div className="uppercase">
             <Link to="/" className="group relative mr-1">
               Index,
@@ -37,7 +40,7 @@ export function Header() {
             </Link>
           </div>
         </div>
-        <div className="">
+        <div className="sm:hidden lg:block">
           <span className="text-sm text-gray-600  2xl:text-base">
             Let&apos;s connect
           </span>

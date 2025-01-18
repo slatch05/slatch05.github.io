@@ -13,7 +13,9 @@ export function Time() {
   }, [])
   return (
     <div>
-      <p className="uppercase">New Zealand, Auckland ({time})</p>
+      <p className="uppercase sm:text-2xl lg:text-base">
+        New Zealand, Auckland ({time})
+      </p>
     </div>
   )
 }
