@@ -4,59 +4,76 @@ import { Footer } from '../Footer/Footer'
 export function BiteShare() {
   return (
     <div>
-      <div className="mt-20 flex justify-between">
-        <div className="w-[28rem] text-lg 2xl:w-[60rem] 2xl:text-2xl">
-          <Link
-            to="/projects"
-            className="mt-7 w-fit rounded-full border border-solid border-black px-2 py-1 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white 2xl:text-xl"
-          >
-            back to projects
-          </Link>
-          <p className="mt-10 text-4xl">Bite-Share</p>
-          <hr className="border-t-1 my-5 border-black"></hr>
-          <span className="text-xs font-light text-zinc-500">Dev Academy</span>
-          <p className="font-light uppercase">Group Project, 2024</p>
-          <hr className="border-t-1 my-5 border-black"></hr>
-          <span className="text-xs font-light text-zinc-500">
-            FrontEnd Lead & UI/UX
-          </span>
-          <p className="font-light uppercase">Harpreet Singh Slatch</p>
-          <hr className="border-t-1 my-5 border-black"></hr>
-          <span className="text-xs font-light text-zinc-500">Copyright</span>
-          <p className="font-light uppercase">© All Rights Reserved</p>
-          <hr className="border-t-1 my-5 border-black"></hr>
+      <div className="mt-20 flex flex-col sm:items-center lg:flex-row lg:items-start lg:justify-between">
+        <div className="w-full px-5 text-lg sm:w-full sm:items-center sm:justify-center lg:w-[28rem] lg:items-start lg:justify-start 2xl:w-[60rem] 2xl:text-2xl">
+          <div className="sm:text-center lg:text-start">
+            <div className="sm:text-start">
+              <Link
+                to="/projects"
+                className="w-full rounded-full border border-solid border-black px-2 py-1 text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white sm:text-3xl lg:text-center lg:text-xl 2xl:text-2xl"
+              >
+                back to projects
+              </Link>
+            </div>
 
-          <a
-            href="https://bite-share-pohutukawa24.devacademy.nz"
-            className="mt-7 w-fit rounded-full border border-solid border-black px-2 py-1 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white 2xl:text-xl"
-          >
-            Live website
-          </a>
-          <a
-            href="https://github.com/slatch05/bite-share"
-            className="ml-3 mt-7 w-fit rounded-full border border-solid border-black px-2 py-1 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white 2xl:text-xl"
-          >
-            View code
-          </a>
-          <p className="mt-44 text-xs font-light text-zinc-500">
-            Scroll to explore
-          </p>
+            <p className="mt-10 sm:text-4xl lg:text-2xl">Bite-Share</p>
+            <hr className="border-t-1 my-5 border-black"></hr>
+            <span className="font-light text-zinc-500 sm:text-lg lg:text-xs">
+              Dev Academy
+            </span>
+            <p className="font-light uppercase sm:text-3xl lg:text-lg">
+              Group Project, 2024
+            </p>
+            <hr className="border-t-1 my-5 border-black"></hr>
+            <span className="font-light text-zinc-500 sm:text-lg lg:text-xs">
+              FrontEnd Lead & UI/UX
+            </span>
+            <p className="font-light uppercase sm:text-3xl lg:text-lg">
+              Harpreet Singh Slatch
+            </p>
+            <hr className="border-t-1 my-5 border-black"></hr>
+            <span className="font-light text-zinc-500 sm:text-lg lg:text-xs">
+              Copyright
+            </span>
+            <p className="font-light uppercase sm:text-3xl lg:text-lg">
+              © All Rights Reserved
+            </p>
+            <hr className="border-t-1 my-5 border-black"></hr>
+            <div className="mt-8">
+              <a
+                href="https://bite-share-pohutukawa24.devacademy.nz"
+                className="mt-7 w-fit rounded-full border border-solid border-black px-2 py-1 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white sm:text-3xl lg:text-xl 2xl:text-2xl"
+              >
+                Live website
+              </a>
+              <a
+                href="https://github.com/slatch05/bite-share"
+                className="ml-3 w-fit rounded-full border border-solid border-black px-2 py-1 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white sm:text-3xl lg:text-xl 2xl:text-2xl"
+              >
+                View code
+              </a>
+            </div>
+          </div>
         </div>
-        <div>
+
+        <div className="mt-10 flex items-center justify-center lg:mt-0 lg:block">
           <img
-            className="w-[60rem] border border-black 2xl:w-[120rem]"
+            className="w-full border border-black sm:w-[fit] lg:w-[60rem] 2xl:w-[120rem]"
             src="/image/bite-share/biteShare1.png"
             alt="BiteShare-HomePage"
           />
         </div>
       </div>
+      <p className="text-start font-light text-zinc-500 sm:mt-16 sm:text-lg lg:mt-20 lg:text-xs">
+        Scroll to explore
+      </p>
       <div className="grid h-screen place-items-center font-light">
-        <div className="mt-52 text-5xl 2xl:text-6xl">
+        <div className="mt-52 text-5xl sm:text-6xl xl:text-5xl 2xl:text-[5rem]">
           Bite-Share is a web application designed to strengthen community
           connections by connecting individuals or organizations willing to
           donate food with those in need.
         </div>
-        <div className="mb-48 ml-96 w-[46rem] font-light uppercase 2xl:text-lg">
+        <div className="w-[46rem] uppercase sm:mb-40 sm:text-xl lg:mb-40 lg:ml-96 lg:mt-8 lg:text-sm 2xl:text-lg">
           {' '}
           This project was a collaborative effort by Henry, Gurwinder, and
           Harpreet, aimed at creating a minimalist and user-friendly website to
@@ -92,37 +109,36 @@ export function BiteShare() {
       </div>
       <div className="mt-5 flex items-center justify-center">
         <img
-          className="w-3/4 border-2 border-black "
+          className="border-2 border-black sm:w-fit lg:w-3/4"
           src="/image/bite-share/biteShare3.png"
           alt="request-page"
         />
       </div>
       <div className="mt-20 flex items-center justify-center">
         <img
-          className="w-3/4 border-2 border-black "
+          className="border-2 border-black sm:w-fit lg:w-3/4"
           src="/image/bite-share/biteShare4.png"
           alt="text-page"
         />
       </div>
-      <div className="mb-10 mt-20 flex items-center justify-center">
-        <div className="flex w-2/4 flex-row items-center justify-center p-5">
+      <div className="mb-10 mt-20 flex justify-center">
+        <div className="flex items-center gap-3 p-5 sm:w-3/4 sm:flex-col sm:justify-center md:w-2/3 lg:w-1/2 lg:flex-row">
           <img
-            className="mr-3 border-2 border-black"
+            className="border-2 border-black"
             src="/image/bite-share/biteShare5.png"
             alt="text-page"
           />
-
           <img
-            className="mr-3 border-2 border-black"
+            className="border-2 border-black"
             src="/image/bite-share/biteShare6.png"
             alt="text-page"
           />
         </div>
       </div>
-      <div className="text-right">
+      <div className="sm:text-center lg:text-right">
         <a
           href="#top"
-          className="mt-7 w-fit rounded-full border border-solid border-black px-2 py-1 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white 2xl:text-xl"
+          className="mt-7 w-fit rounded-full border border-solid border-black px-2 py-1 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white sm:text-3xl lg:text-xl 2xl:text-2xl"
         >
           back to top
         </a>

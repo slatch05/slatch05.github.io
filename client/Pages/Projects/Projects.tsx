@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom'
 export function Projects() {
   return (
     <div className="mt-20">
-      <h1 className="text-5xl font-light sm:w-full sm:text-center lg:w-auto lg:text-left 2xl:text-[5rem]">
+      <h1 className="font-light sm:w-full sm:text-center sm:text-6xl lg:w-auto lg:text-left lg:text-5xl 2xl:text-[5rem]">
         Selected projects (2024 - present)
       </h1>
       <div className="flex flex-col sm:items-center sm:justify-center lg:items-start lg:justify-start xl:items-start xl:justify-start 2xl:items-start 2xl:justify-start">
         <div className="flex gap-10 font-light sm:w-[40rem] sm:flex-col sm:items-center lg:w-[90rem] lg:flex-row lg:items-start ">
-          <div className="mt-10 flex flex-col border border-black p-5 sm:w-[25rem] lg:w-[20rem] xl:w-[20rem] 2xl:w-[25rem]">
+          <div className="mt-10 flex flex-col border border-black p-5 sm:w-[28rem] lg:w-[20rem] xl:w-[20rem] 2xl:w-[25rem]">
             <img
               className="shadow-sm sm:h-[20rem] sm:w-[25rem] lg:h-52 lg:w-72  2xl:h-[18rem] 2xl:w-[30rem]"
               src="/image/game-hub/gameHub.png"
@@ -25,7 +25,7 @@ export function Projects() {
               view case
             </Link>
           </div>
-          <div className="mt-10 flex flex-col border border-black p-5 sm:w-[25rem] lg:w-[20rem] xl:w-[20rem] 2xl:w-[25rem]">
+          <div className="mt-10 flex flex-col border border-black p-5 sm:w-[28rem] lg:w-[20rem] xl:w-[20rem] 2xl:w-[25rem]">
             <img
               className="shadow-sm sm:h-[20rem] sm:w-[25rem] lg:h-52 lg:w-72 2xl:h-[18rem] 2xl:w-[30rem]"
               src="/image/bite-share/biteShare1.png"
@@ -42,7 +42,7 @@ export function Projects() {
               view case
             </Link>
           </div>
-          <div className="mt-10 flex flex-col border border-black p-5 sm:w-[25rem] lg:w-[20rem] xl:w-[20rem] 2xl:w-[25rem]">
+          <div className="mt-10 flex flex-col border border-black p-5 sm:w-[28rem] lg:w-[20rem] xl:w-[20rem] 2xl:w-[25rem]">
             <img
               className="shadow-sm sm:h-[20rem] sm:w-[25rem] lg:h-52 lg:w-72 2xl:h-[18rem] 2xl:w-[30rem]"
               src="/image/food/food1.png"

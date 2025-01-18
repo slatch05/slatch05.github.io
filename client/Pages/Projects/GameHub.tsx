@@ -52,7 +52,7 @@ export function GameHub() {
         </div>
         <div className="mt-10 flex items-center justify-center lg:mt-0 lg:block">
           <img
-            className="w-full sm:w-[fit] lg:w-[60rem] 2xl:w-[120rem] "
+            className="w-full sm:w-[fit] lg:w-[60rem] 2xl:w-[120rem]"
             src="/image/game-hub/gameHub.png"
             alt="GameHub-HomePage"
           />
