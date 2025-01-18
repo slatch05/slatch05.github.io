@@ -101,7 +101,7 @@ export function DrawerMenu() {
 
           <DrawerClose>
             <div className=" mt-[26rem] flex w-full items-end sm:block lg:hidden">
-              <div className="absolute right-7 w-fit rounded-full border border-solid border-white bg-white px-6 py-2 text-center uppercase  text-black transition-all duration-300 ease-in-out hover:bg-black hover:text-white sm:text-5xl lg:text-center ">
+              <div className="absolute right-7 w-fit rounded-full border border-solid border-white bg-white px-4 py-1 text-center uppercase  text-black transition-all duration-300 ease-in-out hover:bg-black hover:text-white sm:text-5xl lg:text-center ">
                 close
               </div>
             </div>

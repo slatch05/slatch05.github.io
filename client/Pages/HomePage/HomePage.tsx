@@ -7,7 +7,7 @@ export function HomePage() {
         {/* Image Section */}
         <div className="w-50 lg:w-50 2xl:w-70 md:w-70 h-auto sm:mt-[20rem] sm:w-80 lg:mt-[0rem] xl:w-60">
           <div className="flex w-full items-end sm:block lg:hidden">
-            <div className=" fixed right-7 mt-[27rem] w-fit rounded-full border border-solid border-black px-6 py-1 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white sm:text-5xl lg:text-center ">
+            <div className=" fixed right-7 mt-[27rem] w-fit rounded-full border border-solid border-black px-4 py-1 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white sm:text-5xl lg:text-center ">
               <DrawerMenu />
             </div>
           </div>
@@ -22,7 +22,7 @@ export function HomePage() {
           I’m always ready for new projects and collaborations!
           <div className="mt-8">
             <a
-              className="w-fit rounded-full border border-solid border-black px-2 py-1 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white sm:text-5xl lg:text-center "
+              className="w-fit rounded-full border border-solid border-black px-4 py-1 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white sm:text-5xl lg:text-center "
               href="mailto: blue_slatch@icloud.com"
             >
               BLUE_SLATCH@ICLOUD.COM

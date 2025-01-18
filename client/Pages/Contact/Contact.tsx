@@ -81,12 +81,12 @@ export function Contact() {
         </div>
         <button
           type="submit"
-          className="mt-20 w-fit rounded-full border border-solid border-black px-2 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white sm:text-4xl lg:text-xl xl:text-xl 2xl:text-2xl"
+          className="mt-20 w-fit rounded-full border border-solid border-black text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white sm:px-4 sm:py-1 sm:text-5xl lg:px-2 lg:py-0 lg:text-xl xl:text-xl 2xl:text-2xl"
         >
           Send message
         </button>
         <div className="mt-[38rem] flex w-full items-end sm:block lg:hidden">
-          <div className="absolute right-7 w-fit rounded-full border border-solid border-black px-6 py-1 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white sm:text-5xl lg:text-center ">
+          <div className="absolute right-7 w-fit rounded-full border border-solid border-black px-4 py-1 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white sm:text-5xl lg:text-center ">
             <DrawerMenu />
           </div>
         </div>

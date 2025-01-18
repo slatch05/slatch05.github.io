@@ -54,7 +54,7 @@ export function About() {
           </div>
         </div>
         <div className="mt-[11rem] flex w-full items-end sm:block lg:hidden">
-          <div className="absolute right-7 w-fit rounded-full border border-solid border-black px-6 py-1 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white sm:text-5xl lg:text-center ">
+          <div className="absolute right-7 w-fit rounded-full border border-solid border-black px-4 py-1 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white sm:text-5xl lg:text-center ">
             <DrawerMenu />
           </div>
         </div>
