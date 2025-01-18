@@ -17,7 +17,7 @@ export function HomePage() {
           </h1>
         </div>
       </div>
-      <div className="mt-20  w-[24rem] text-pretty sm:block sm:text-3xl lg:hidden lg:text-center lg:text-xl 2xl:text-2xl">
+      <div className="mt-[40rem] w-[24rem] text-pretty sm:block sm:text-3xl lg:hidden lg:text-center lg:text-xl 2xl:text-2xl">
         I’m always ready for new projects and collaborations!
         <div className="mt-8">
           <a
