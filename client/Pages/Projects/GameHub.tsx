@@ -115,7 +115,7 @@ export function GameHub() {
           />
         </div>
       </div>
-      <div className="sm:text-center lg:text-right">
+      <div className="mt-10 sm:text-center lg:text-right">
         <a
           href="#top"
           className="mt-7 w-fit rounded-full border border-solid border-black px-2 py-1 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white sm:text-3xl lg:text-xl 2xl:text-2xl"

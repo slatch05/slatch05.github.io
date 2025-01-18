@@ -4,54 +4,68 @@ import { Footer } from '../Footer/Footer'
 export function FoodRecipe() {
   return (
     <div>
-      <div className="mt-20 flex justify-between">
-        <div className="w-[28rem] text-lg 2xl:w-[60rem] 2xl:text-2xl">
-          <Link
-            to="/projects"
-            className="mt-7 w-fit rounded-full border border-solid border-black px-2 py-1 text-center text-lg uppercase  transition-all duration-300 ease-in-out hover:bg-black hover:text-white 2xl:text-xl"
-          >
-            back to projects
-          </Link>
-          <p className="mt-10 text-4xl">Food Recipe</p>
-          <hr className="border-t-1 my-5 border-black"></hr>
-          <span className="text-xs font-light text-zinc-500">Dev Academy</span>
-          <p className="font-light uppercase">Group project, 2024</p>
-          <hr className="border-t-1 my-5 border-black"></hr>
-          <span className="text-xs font-light text-zinc-500">
-            BackEnd, UI/UX, 2024
-          </span>
-          <p className="font-light uppercase">Harpreet Singh Slatch</p>
-          <hr className="border-t-1 my-5 border-black"></hr>
-          <span className="text-xs font-light text-zinc-500">Copyright</span>
-          <p className="font-light uppercase">© All Rights Reserved</p>
-          <hr className="border-t-1 my-5 border-black"></hr>
-
-          <a
-            href="https://github.com/slatch05/food-Recipes"
-            className="ml-3 mt-7 w-fit rounded-full border border-solid border-black px-2 py-1 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white 2xl:text-xl"
-          >
-            View code
-          </a>
-
-          <p className="mt-44 text-xs font-light text-zinc-500">
-            Scroll to explore
-          </p>
+      <div className="mt-20 flex flex-col sm:items-center lg:flex-row lg:items-start lg:justify-between">
+        <div className="w-full px-5 text-lg sm:w-full sm:items-center sm:justify-center lg:w-[28rem] lg:items-start lg:justify-start 2xl:w-[60rem] 2xl:text-2xl">
+          <div className="sm:text-center lg:text-start">
+            <div className="sm:text-start">
+              <Link
+                to="/projects"
+                className="w-full rounded-full border border-solid border-black px-2 py-1 text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white sm:text-3xl lg:text-center lg:text-xl 2xl:text-2xl"
+              >
+                back to projects
+              </Link>
+            </div>
+            <p className="mt-10 sm:text-4xl lg:text-2xl">Food Recipe</p>
+            <hr className="border-t-1 my-5 border-black"></hr>
+            <span className="font-light text-zinc-500 sm:text-lg lg:text-xs">
+              Dev Academy
+            </span>
+            <p className="font-light uppercase sm:text-3xl lg:text-lg">
+              Group project, 2024
+            </p>
+            <hr className="border-t-1 my-5 border-black"></hr>
+            <span className="font-light text-zinc-500 sm:text-lg lg:text-xs">
+              BackEnd, UI/UX, 2024
+            </span>
+            <p className="font-light uppercase sm:text-3xl lg:text-lg">
+              Harpreet Singh Slatch
+            </p>
+            <hr className="border-t-1 my-5 border-black"></hr>
+            <span className="font-light text-zinc-500 sm:text-lg lg:text-xs">
+              Copyright
+            </span>
+            <p className="font-light uppercase sm:text-3xl lg:text-lg">
+              © All Rights Reserved
+            </p>
+            <hr className="border-t-1 my-5 border-black"></hr>
+            <div className="mt-8">
+              <a
+                href="https://github.com/slatch05/food-Recipes"
+                className="ml-3 mt-7 w-fit rounded-full border border-solid border-black px-2 py-1 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white sm:text-3xl lg:text-xl 2xl:text-2xl"
+              >
+                View code
+              </a>
+            </div>
+          </div>
         </div>
-        <div>
+        <div className="mt-10 flex items-center justify-center lg:mt-0 lg:block">
           <img
-            className="w-[60rem] border-4 border-teal-100 2xl:w-[120rem]"
+            className="w-full border border-black sm:w-[fit] lg:w-[60rem] 2xl:w-[120rem]"
             src="/image/food/food1.png"
             alt="BiteShare-HomePage"
           />
         </div>
       </div>
+      <p className="text-start font-light text-zinc-500 sm:mt-16 sm:text-lg lg:mt-20 lg:text-xs">
+        Scroll to explore
+      </p>
       <div className="grid h-screen place-items-center font-light">
-        <div className="mt-52 text-5xl 2xl:text-6xl">
+        <div className="mt-52 text-5xl sm:text-6xl xl:text-5xl 2xl:text-[5rem]">
           A food recipe website that helps users discover their favorite recipes
           from a wide variety of cuisines. The platform makes it simple and
           enjoyable to find and try the dishes you love.
         </div>
-        <div className="mb-48 ml-96 w-[46rem] text-base uppercase 2xl:text-lg">
+        <div className="w-[46rem] uppercase sm:mb-40 sm:text-xl lg:mb-40 lg:ml-96 lg:mt-8 lg:text-sm 2xl:text-lg">
           This project, completed as a Friday group collaboration by Harpreet,
           Nikki, and Gurwinder in just half a day, aimed to create a simple and
           user-friendly platform. Built using TypeScript, React, Node.js, and
@@ -64,22 +78,22 @@ export function FoodRecipe() {
           polished product in a limited timeframe.
         </div>
       </div>
-      <div className="m-[4rem] bg-violet-50">
-        <div className="mt-10 flex h-screen flex-col items-center justify-center ">
+      <div className="bg-violet-50 lg:m-[4rem]">
+        <div className="mt-10 flex flex-col items-center justify-center sm:mb-4 lg:h-screen">
           <img
             className="w-[67rem] 2xl:w-[120rem] "
             src="/image/food/food2.png"
             alt="japFood-page"
           />
         </div>
-        <div className="flex flex-col items-center justify-center">
+        <div className="mt-10 flex flex-col items-center justify-center sm:mb-4 lg:h-screen">
           <img
             className="w-[67rem] 2xl:w-[120rem]"
             src="/image/food/food3.png"
             alt="japFood-page"
           />
         </div>
-        <div className="flex h-screen flex-col items-center justify-center">
+        <div className="mt-10 flex flex-col items-center justify-center sm:mb-4 lg:h-screen">
           <img
             className="w-[67rem] 2xl:w-[120rem]"
             src="/image/food/food4.png"
@@ -88,10 +102,10 @@ export function FoodRecipe() {
         </div>
       </div>
 
-      <div className="text-right">
+      <div className="mt-10 sm:text-center lg:text-right">
         <a
           href="#top"
-          className="mt-7 w-fit rounded-full border border-solid border-black px-2 py-1 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white 2xl:text-xl"
+          className="mt-7 w-fit rounded-full border border-solid border-black px-2 py-1 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white sm:text-3xl lg:text-xl 2xl:text-2xl"
         >
           back to top
         </a>
