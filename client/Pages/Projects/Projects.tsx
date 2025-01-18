@@ -16,12 +16,14 @@ export function Projects() {
               src="/image/game-hub/gameHub.png"
               alt="gamehub-homepage"
             />
-            <span className="mt-2 text-sm font-extralight 2xl:text-base">
+            <span className="mt-2 font-extralight sm:text-lg lg:text-sm 2xl:text-base ">
               FrontEnd, BackEnd, UI/UX, 2024
             </span>
-            <span className="text-lg uppercase 2xl:text-2xl">game hub</span>
+            <span className="uppercase sm:text-3xl lg:text-lg 2xl:text-2xl">
+              game hub
+            </span>
             <Link
-              className=" mt-7 w-fit rounded-full border border-solid border-black  px-2 text-center uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white 2xl:text-xl"
+              className=" mt-7 w-fit rounded-full border border-solid border-black  px-2  text-center uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white sm:text-4xl lg:text-base 2xl:text-xl"
               to="/gamehub"
             >
               view case
@@ -33,12 +35,14 @@ export function Projects() {
               src="/image/bite-share/biteShare1.png"
               alt="biteshare-homepage"
             />
-            <span className="mt-2 text-sm font-extralight 2xl:text-base">
+            <span className="mt-2 font-extralight sm:text-lg lg:text-sm 2xl:text-base ">
               FrontEnd Lead, UI/UX, 2024
             </span>
-            <span className="text-lg uppercase 2xl:text-2xl">Bite share</span>
+            <span className="uppercase sm:text-3xl lg:text-lg 2xl:text-2xl">
+              Bite share
+            </span>
             <Link
-              className=" mt-7 w-fit rounded-full border border-solid border-black  px-2  text-center uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white 2xl:text-xl"
+              className=" mt-7 w-fit rounded-full border border-solid border-black   px-2 text-center uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white sm:text-4xl lg:text-base 2xl:text-xl"
               to="/biteshare"
             >
               view case
@@ -55,12 +59,14 @@ export function Projects() {
               src="/image/food/food1.png"
               alt="gamehub-homepage"
             />
-            <span className="mt-2 text-sm font-extralight">
+            <span className="mt-2 font-extralight sm:text-lg lg:text-sm">
               FrontEnd, BackEnd, UI/UX, 2024
             </span>
-            <span className="text-lg uppercase 2xl:text-2xl">Food Recipe</span>
+            <span className="uppercase sm:text-3xl lg:text-lg 2xl:text-2xl">
+              Food Recipe
+            </span>
             <Link
-              className=" mt-7 w-fit rounded-full border border-solid border-black  px-2  text-center uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white 2xl:text-xl"
+              className=" mt-7 w-fit rounded-full border border-solid border-black  px-2 text-center uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white sm:text-4xl lg:text-base 2xl:text-xl"
               to="/foodrecipe"
             >
               view case
