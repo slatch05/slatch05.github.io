@@ -1,3 +1,5 @@
+import { DrawerMenu } from '../../components/DrawerMenu'
+
 export function HomePage() {
   return (
     <div className="mt-32">
@@ -17,15 +19,22 @@ export function HomePage() {
           </h1>
         </div>
       </div>
-      <div className="mt-[55rem] w-[24rem] text-pretty sm:block sm:text-3xl lg:hidden lg:text-center lg:text-xl 2xl:text-2xl">
+
+      <div className="mt-[4rem] w-[24rem] text-pretty sm:block sm:text-3xl lg:hidden lg:text-center lg:text-xl 2xl:text-2xl">
         I’m always ready for new projects and collaborations!
         <div className="mt-8">
           <a
-            className="w-fit rounded-full border border-solid border-black px-2 py-1 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white sm:text-4xl lg:text-center lg:text-xl 2xl:text-2xl"
+            className="w-fit rounded-full border border-solid border-black px-2 py-1 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white sm:text-5xl lg:text-center "
             href="mailto: blue_slatch@icloud.com"
           >
             BLUE_SLATCH@ICLOUD.COM
           </a>
+        </div>
+      </div>
+
+      <div className="mt-[50rem] flex w-full items-end sm:block lg:hidden">
+        <div className="absolute right-7 w-fit rounded-full border border-solid border-black px-6 py-1 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white sm:text-5xl lg:text-center ">
+          <DrawerMenu />
         </div>
       </div>
     </div>

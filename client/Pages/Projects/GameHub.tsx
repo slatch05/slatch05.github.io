@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { Footer } from '../Footer/Footer'
+import { DrawerMenu } from '../../components/DrawerMenu'
 
 export function GameHub() {
   return (
@@ -61,6 +62,11 @@ export function GameHub() {
       <p className="text-start font-light text-zinc-500 sm:mt-16 sm:text-lg lg:mt-20 lg:text-xs">
         Scroll to explore
       </p>
+      <div className="mt-[2rem] flex w-full items-end sm:block lg:hidden">
+        <div className="fixed right-7 w-fit rounded-full border border-solid border-black bg-white px-6 py-1 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white sm:text-5xl lg:text-center ">
+          <DrawerMenu />
+        </div>
+      </div>
       <div className="grid h-screen place-items-center font-light">
         <div className="mt-52 text-5xl sm:text-6xl xl:text-5xl 2xl:text-[5rem]">
           Game Hub is a web application offering a collection of amazing

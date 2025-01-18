@@ -6,15 +6,15 @@ export function Header() {
     <div>
       <div className="flex justify-between font-montreal text-sm 2xl:text-xl">
         <div>
-          <span className="text-gray-600 sm:text-xl lg:text-sm 2xl:text-base">
+          <span className="text-gray-600 sm:text-2xl lg:text-sm 2xl:text-base">
             Harpreet Singh Slatch
           </span>
-          <p className="uppercase sm:text-2xl lg:text-base">
+          <p className="uppercase sm:text-3xl lg:text-base">
             Full stack developer{' '}
           </p>
         </div>
-        <div className="">
-          <span className="text-gray-600 sm:text-xl lg:text-sm 2xl:text-base">
+        <div>
+          <span className="text-gray-600 sm:text-2xl lg:text-sm 2xl:text-base">
             Location
           </span>
           <Time />
