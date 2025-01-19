@@ -11,42 +11,42 @@ export function GameHub() {
             <div className="sm:text-start">
               <Link
                 to="/projects"
-                className="w-full rounded-full border border-solid border-black px-2 py-1 text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white sm:text-3xl lg:text-center lg:text-xl 2xl:text-2xl"
+                className="w-full rounded-full border border-solid border-black px-2 py-1 text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white sm:text-4xl lg:text-center lg:text-xl 2xl:text-2xl"
               >
                 back to projects
               </Link>
             </div>
 
-            <p className="mt-10 sm:text-4xl lg:text-2xl">Game Hub</p>
+            <p className="mt-10 sm:text-5xl lg:text-2xl">Game Hub</p>
             <hr className="border-t-1 my-5 border-black" />
-            <span className="font-light text-zinc-500 sm:text-lg lg:text-xs">
+            <span className="font-light text-zinc-500 sm:text-xl lg:text-xs">
               Remote
             </span>
-            <p className="font-light uppercase sm:text-3xl lg:text-lg">
+            <p className="font-light uppercase sm:text-4xl lg:text-lg">
               Personal project, 2024
             </p>
             <hr className="border-t-1 my-5 border-black" />
-            <span className="font-light text-zinc-500 sm:text-lg lg:text-xs">
+            <span className="font-light text-zinc-500 sm:text-xl lg:text-xs">
               FrontEnd, BackEnd, UI/UX, 2024
             </span>
-            <p className="font-light uppercase sm:text-3xl lg:text-lg">
+            <p className="font-light uppercase sm:text-4xl lg:text-lg">
               Harpreet Singh Slatch
             </p>
             <hr className="border-t-1 my-5 border-black" />
-            <span className="font-light text-zinc-500 sm:text-lg lg:text-xs">
+            <span className="font-light text-zinc-500 sm:text-xl lg:text-xs">
               Copyright
             </span>
-            <p className="font-light uppercase sm:text-3xl lg:text-lg">
+            <p className="font-light uppercase sm:text-4xl lg:text-lg">
               © All Rights Reserved
             </p>
             <hr className="border-t-1 my-5 border-black" />
             <div className="flex sm:items-center sm:justify-center lg:items-start lg:justify-start">
-              <p className="rounded-full bg-[rgb(255,47,1)] px-2 py-1 text-lg text-white sm:w-fit sm:text-3xl lg:w-fit  lg:text-lg 2xl:text-2xl">
+              <p className="rounded-full bg-[rgb(255,47,1)] px-2 py-1 text-lg text-white sm:w-fit sm:text-4xl lg:w-fit lg:text-lg 2xl:text-2xl">
                 Under construction
               </p>
             </div>
 
-            <p className="mt-3 text-base sm:text-3xl lg:text-start lg:text-lg 2xl:text-2xl">
+            <p className="mt-3 text-base sm:text-4xl lg:text-start lg:text-lg 2xl:text-2xl">
               Exciting things are on the way!
             </p>
           </div>
@@ -124,7 +124,7 @@ export function GameHub() {
       <div className="mt-10 sm:text-center lg:text-right">
         <a
           href="#top"
-          className="mt-7 w-fit rounded-full border border-solid border-black px-2 py-1 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white sm:text-3xl lg:text-xl 2xl:text-2xl"
+          className="mt-7 w-fit rounded-full border border-solid border-black px-2 py-1 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white sm:text-4xl lg:text-xl 2xl:text-2xl"
         >
           back to top
         </a>

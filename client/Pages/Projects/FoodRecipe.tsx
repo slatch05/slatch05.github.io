@@ -11,38 +11,38 @@ export function FoodRecipe() {
             <div className="sm:text-start">
               <Link
                 to="/projects"
-                className="w-full rounded-full border border-solid border-black px-2 py-1 text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white sm:text-3xl lg:text-center lg:text-xl 2xl:text-2xl"
+                className="w-full rounded-full border border-solid border-black px-2 py-1 text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white sm:text-4xl lg:text-center lg:text-xl 2xl:text-2xl"
               >
                 back to projects
               </Link>
             </div>
-            <p className="mt-10 sm:text-4xl lg:text-2xl">Food Recipe</p>
+            <p className="mt-10 sm:text-5xl lg:text-2xl">Food Recipe</p>
             <hr className="border-t-1 my-5 border-black"></hr>
-            <span className="font-light text-zinc-500 sm:text-lg lg:text-xs">
+            <span className="font-light text-zinc-500 sm:text-xl lg:text-xs">
               Dev Academy
             </span>
-            <p className="font-light uppercase sm:text-3xl lg:text-lg">
+            <p className="font-light uppercase sm:text-4xl lg:text-lg">
               Group project, 2024
             </p>
             <hr className="border-t-1 my-5 border-black"></hr>
-            <span className="font-light text-zinc-500 sm:text-lg lg:text-xs">
+            <span className="font-light text-zinc-500 sm:text-xl lg:text-xs">
               BackEnd, UI/UX, 2024
             </span>
-            <p className="font-light uppercase sm:text-3xl lg:text-lg">
+            <p className="font-light uppercase sm:text-4xl lg:text-lg">
               Harpreet Singh Slatch
             </p>
             <hr className="border-t-1 my-5 border-black"></hr>
-            <span className="font-light text-zinc-500 sm:text-lg lg:text-xs">
+            <span className="font-light text-zinc-500 sm:text-xl lg:text-xs">
               Copyright
             </span>
-            <p className="font-light uppercase sm:text-3xl lg:text-lg">
+            <p className="font-light uppercase sm:text-4xl lg:text-lg">
               © All Rights Reserved
             </p>
             <hr className="border-t-1 my-5 border-black"></hr>
             <div className="mt-8">
               <a
                 href="https://github.com/slatch05/food-Recipes"
-                className="ml-3 mt-7 w-fit rounded-full border border-solid border-black px-2 py-1 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white sm:text-3xl lg:text-xl 2xl:text-2xl"
+                className="ml-3 mt-7 w-fit rounded-full border border-solid border-black px-2 py-1 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white sm:text-4xl lg:text-xl 2xl:text-2xl"
               >
                 View code
               </a>
@@ -111,7 +111,7 @@ export function FoodRecipe() {
       <div className="mt-10 sm:text-center lg:text-right">
         <a
           href="#top"
-          className="mt-7 w-fit rounded-full border border-solid border-black px-2 py-1 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white sm:text-3xl lg:text-xl 2xl:text-2xl"
+          className="mt-7 w-fit rounded-full border border-solid border-black px-2 py-1 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white sm:text-4xl lg:text-xl 2xl:text-2xl"
         >
           back to top
         </a>

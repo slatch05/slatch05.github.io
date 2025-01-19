@@ -13,7 +13,7 @@ export function Time() {
   }, [])
   return (
     <div>
-      <p className="uppercase sm:text-3xl lg:text-base">
+      <p className="uppercase sm:text-3xl lg:text-base 2xl:text-xl">
         New Zealand, AKL ({time})
       </p>
     </div>

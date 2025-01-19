@@ -9,7 +9,7 @@ export function Header() {
           <span className="text-gray-600 sm:text-2xl lg:text-sm 2xl:text-base">
             Harpreet Singh Slatch
           </span>
-          <p className="uppercase sm:text-3xl lg:text-base">
+          <p className="uppercase sm:text-3xl lg:text-base 2xl:text-xl">
             Full stack developer{' '}
           </p>
         </div>

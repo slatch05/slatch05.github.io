@@ -5,7 +5,7 @@ import {
   DrawerDescription,
   // DrawerFooter,
   DrawerHeader,
-  DrawerTitle,
+  // DrawerTitle,
   DrawerTrigger,
 } from '../ui/dawer'
 
@@ -20,8 +20,8 @@ export function DrawerMenu() {
         <DrawerTrigger>Menu</DrawerTrigger>
         <DrawerContent>
           <DrawerHeader>
-            <DrawerTitle>
-              <div className="mb-20 flex flex-row justify-between ">
+            <DrawerDescription>
+              <div className="mb-10 flex flex-row justify-between ">
                 <div>
                   <span className="text-gray-400 sm:text-2xl lg:text-sm 2xl:text-base">
                     Harpreet Singh Slatch
@@ -37,10 +37,10 @@ export function DrawerMenu() {
                   <Time />
                 </div>
               </div>
-            </DrawerTitle>
+            </DrawerDescription>
             <DrawerDescription>
               {' '}
-              <div>
+              <div className="mt-20">
                 <span className="text-5xl text-gray-400">Sitemap</span>
                 <hr className="border-t-1 my-5 border-white"></hr>
                 <div className="mt-10 flex flex-wrap gap-20 uppercase">
@@ -65,7 +65,7 @@ export function DrawerMenu() {
             </DrawerDescription>
 
             <DrawerDescription>
-              <div>
+              <div className="mt-20">
                 <span className="text-5xl text-gray-400 ">
                   Let&apos;s connect
                 </span>
@@ -100,7 +100,7 @@ export function DrawerMenu() {
           </DrawerHeader>
 
           <DrawerClose>
-            <div className=" mt-[26rem] flex w-full items-end sm:block lg:hidden">
+            <div className=" mt-[24rem] flex w-full items-end sm:block lg:hidden">
               <div className="absolute right-7 w-fit rounded-full border border-solid border-white bg-white px-4 py-1 text-center uppercase  text-black transition-all duration-300 ease-in-out hover:bg-black hover:text-white sm:text-5xl lg:text-center ">
                 close
               </div>
