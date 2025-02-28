@@ -25,7 +25,7 @@ export function HomePage() {
               className="w-fit rounded-full border border-solid border-black px-4 py-1 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white sm:text-5xl lg:text-center "
               href="mailto: blue_slatch@icloud.com"
             >
-              BLUE_SLATCH@ICLOUD.COM
+              harpreetslatchnz@gmail.com
             </a>
           </div>
         </div>

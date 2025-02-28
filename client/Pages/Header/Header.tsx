@@ -46,7 +46,7 @@ export function Header() {
           </span>
           <div className="uppercase">
             <a
-              href="https://sg.docs.wps.com/l/cIOaDnq-fAualvrsG?utm_source=wps_office_mac&utm_medium=comp_border_bar&utm_content=link&v=v2"
+              href="https://sg.docworkspace.com/d/cIAiDnq-fAqj_hb4G?utm_source=wps_office_mac&utm_medium=comp_border_bar&utm_content=link"
               className="group relative mr-1"
             >
               Resume,
@@ -67,7 +67,10 @@ export function Header() {
               <span className="absolute bottom-0 left-0 h-[1px] w-0 bg-[rgb(255,47,1)] transition-all duration-300 group-hover:w-full"></span>
             </a>
 
-            <a href="mailto:blue_slatch@icloud.com" className="group relative">
+            <a
+              href="mailto:harpreetslatchnz@gmail.com"
+              className="group relative"
+            >
               Email
               <span className="absolute bottom-0 left-0 h-[1px] w-0 bg-[rgb(255,47,1)] transition-all duration-300 group-hover:w-full"></span>
             </a>

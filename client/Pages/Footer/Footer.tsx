@@ -9,9 +9,9 @@ export function Footer() {
           <div className="mt-14">
             <a
               className="w-fit rounded-full border border-solid border-black px-2 py-1 text-center text-lg uppercase transition-all duration-300 ease-in-out hover:bg-black hover:text-white sm:text-4xl lg:text-center lg:text-xl 2xl:text-2xl"
-              href="mailto: blue_slatch@icloud.com"
+              href="mailto:harpreetslatchnz@gmail.com"
             >
-              BLUE_SLATCH@ICLOUD.COM
+              harpreetslatchnz@gmail.com
             </a>
           </div>
         </div>
@@ -77,7 +77,7 @@ export function Footer() {
                 </a>
 
                 <a
-                  href="mailto:blue_slatch@icloud.com"
+                  href="mailto:harpreetslatchnz@gmail.com"
                   className="group relative"
                 >
                   Email
