@@ -46,7 +46,7 @@ export function Header() {
           </span>
           <div className="uppercase">
             <a
-              href="https://sg.docworkspace.com/d/cINaDnq-fApmHlb4G?utm_source=wps_office_mac&utm_medium=&utm_content=link"
+              href="https://sg.docs.wps.com/l/cINaDnq-fApmHlb4G?utm_source=wps_office_mac&utm_medium=null&utm_content=link&v=v2"
               className="group relative mr-1"
             >
               Resume,
