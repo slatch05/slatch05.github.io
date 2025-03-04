@@ -72,7 +72,7 @@ export function DrawerMenu() {
                 <hr className="border-t-1 my-5 border-white"></hr>
                 <div className="mt-10 flex flex-wrap gap-20 uppercase">
                   <a
-                    href="https://sg.docs.wps.com/l/cIOaDnq-fAualvrsG?utm_source=wps_office_mac&utm_medium=comp_border_bar&utm_content=link&v=v2"
+                    href="https://sg.docs.wps.com/l/cINaDnq-fApmHlb4G?utm_source=wps_office_mac&utm_medium=null&utm_content=link&v=v2"
                     className="text-5xl"
                   >
                     Resume
